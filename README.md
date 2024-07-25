@@ -1,6 +1,7 @@
 # 📈 Stock Broker Client Web Dashboard
 
-![Stock Dashboard Preview](./dashboard_preview.png)
+![stock-dashboard](https://github.com/user-attachments/assets/4516cf74-71e9-431a-8830-a4ae80fc6b85)
+![stock-dashboard](https://github.com/user-attachments/assets/ebfbe508-658e-4113-9e65-a623d711e80c)
 
 ## 🚀 Features
 
