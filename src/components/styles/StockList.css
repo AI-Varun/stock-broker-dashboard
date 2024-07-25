@@ -1,0 +1,118 @@
+/* .stock-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 1em;
+  min-width: 600px;
+  background: linear-gradient(145deg, #ffffff, #f0f0f0);
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2), -10px -10px 30px rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  overflow: hidden;
+  color: #333;
+}
+
+.stock-table th, .stock-table td {
+  padding: 12px 20px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.stock-table th {
+  background-color: #4CAF50;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.stock-table tbody tr {
+  transition: all 0.3s ease-in-out;
+}
+
+.stock-table tbody tr:hover {
+  transform: scale(1.03);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.stock-row {
+  background-color: #fff;
+}
+
+.stock-row.high {
+  background-color: #e0ffe0;
+}
+
+.stock-row.low {
+  background-color: #ffe0e0;
+}
+
+.stock-row td {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.stock-row img {
+  width: 20px;
+  height: 20px;
+} */
+
+/* StockList.css */
+
+.stock-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 1em;
+  min-width: 600px;
+  background: linear-gradient(145deg, #ffffff, #f0f0f0);
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2), -10px -10px 30px rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  overflow: hidden;
+  color: #333;
+}
+
+.stock-table th,
+.stock-table td {
+  padding: 12px 20px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.stock-table th {
+  background-color: #4CAF50;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.stock-table tbody tr {
+  transition: all 0.3s ease-in-out;
+}
+
+.stock-table tbody tr:hover {
+  transform: scale(1.03);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.stock-row {
+  background-color: #fff;
+}
+
+.stock-row.high {
+  background-color: #e0ffe0;
+}
+
+.stock-row.low {
+  background-color: #ffe0e0;
+}
+
+.stock-row td {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.stock-row img {
+  width: 20px;
+  height: 20px;
+}
