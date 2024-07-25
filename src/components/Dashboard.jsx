@@ -19,9 +19,9 @@ const Dashboard = () => {
             const updatedStocks = {};
 
             Object.keys(stocksData).forEach(stock => {
-                const currentPrice = Math.random() * 100 + 10; // Example price
-                const high = currentPrice + Math.random() * 5; // Example high
-                const low = currentPrice - Math.random() * 5; // Example low
+                const currentPrice = Math.random() * 100 + 10;
+                const high = currentPrice + Math.random() * 5;
+                const low = currentPrice - Math.random() * 5;
 
                 updatedStocks[stock] = {
                     current: currentPrice.toFixed(2),
@@ -56,7 +56,7 @@ const Dashboard = () => {
             const updatedSubscriptions = subscriptions.filter(stock => stock !== stockSymbol);
             setSubscriptions(updatedSubscriptions);
             localStorage.setItem(user, JSON.stringify(updatedSubscriptions));
-            await unsubscribeFromStock(stockSymbol); // Assuming you have an unsubscribe function in your stockService
+            await unsubscribeFromStock(stockSymbol);
         }
     };
 
@@ -75,7 +75,7 @@ const Dashboard = () => {
                 <StockSubscription
                     stocks={stocks}
                     onSubscribe={handleSubscribe}
-                    onUnsubscribe={handleUnsubscribe} // Passing onUnsubscribe function
+                    onUnsubscribe={handleUnsubscribe}
                 />
                 <StockList stocks={stocks} subscriptions={subscriptions} />
             </div>

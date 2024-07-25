@@ -1,5 +1,4 @@
 export const loginUser = (email) => {
-    // Simulating API call
     return new Promise((resolve) => {
         setTimeout(() => {
             localStorage.setItem('user', email);
